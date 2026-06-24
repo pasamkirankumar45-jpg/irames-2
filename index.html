@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe and Multimedia Integration</title>
+</head>
+<body>
+
+    <h1>Iframe and Multimedia Integration Assignment</h1>
+
+    <nav>
+        <a href="#image">Image</a> |
+        <a href="#audio">Audio</a> |
+        <a href="#video">Video</a> |
+        <a href="#website">Website</a>
+    </nav>
+
+    <hr>
+
+    <section id="image">
+        <h2>Image</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDYZk7Uag2pStEGapUSwigKjBeZC6pyI7lZdelBTnlosVKohvNSddR4-k&s=10"
+             alt="Nature Image" width="600">
+    </section>
+
+    <hr>
+
+    <section id="audio">
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="johnny.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <hr>
+
+    <section id="video">
+        <h2>Video</h2>
+        <video width="600" controls>
+            <source src="rangastalam.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <hr>
+
+    <section id="website">
+        <h2>Website</h2>
+        <iframe
+            src="https://en.wikipedia.org/wiki/Royal_Challengers_Bengaluru"
+            width="800"
+            height="400"
+            title="Wikipedia">
+        </iframe>
+    </section>
+
+</body>
+</html>
